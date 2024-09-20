@@ -1,0 +1,12 @@
+
+slices:
+  - sources:
+      - model: arcee-ai/Llama-3.1-SuperNova-Lite
+        layer_range: [0, 32]
+      - model: DreadPoor/Heart_Stolen-8B-Model_Stock
+        layer_range: [0, 32]
+      - model: Dampfinchen/Llama-3.1-8B-Ultra-Instruct
+        layer_range: [0, 32]
+merge_method: model_stock
+base_model: arcee-ai/Llama-3.1-SuperNova-Lite
+dtype: bfloat16
